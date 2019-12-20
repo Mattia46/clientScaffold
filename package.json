@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "npm t",
-    "start": "webpack --config ./config/webpack.config.js "
+    "build": "./scripts/build.sh",
+    "start": "./scripts/dev.sh"
   },
   "author": "mattia.assogna@gmail.com",
   "license": "ISC",
   "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }
