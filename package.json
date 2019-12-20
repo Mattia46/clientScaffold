@@ -1,0 +1,16 @@
+{
+  "name": "winenote",
+  "version": "1.0.0",
+  "description": "Wine Note app for Sommelier",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t",
+    "start": "webpack --config ./config/webpack.config.js "
+  },
+  "author": "mattia.assogna@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
