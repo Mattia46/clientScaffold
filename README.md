@@ -1,9 +1,10 @@
-# WineNote for Sommelier
+# Client React App scaffolding
 
-This is WineNote app.
-It facilitate the Sommelier experience during Supplier Wine testing as well as keep track of tested
-wines through the Sommelier Portfolio that allows to store every wine ever tested adding custom
-preferences
+This is a scaffolding repo that initialise the client app with:
+ - npm 
+ - webpack
+ - jest
+ - basic scripting (build, start, watch mode)
 
 -----
 
